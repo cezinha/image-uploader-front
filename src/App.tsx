@@ -64,7 +64,7 @@ function App() {
         <div className="Box">
           <h1>Upload successfully!</h1>
           <div className="image-result" style={{
-              background: imageUrl
+              backgroundImage: imageUrl
             }}>
           </div>
           <input id="input" type="text" value={image} ref={copyInputRef} readOnly />
